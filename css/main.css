@@ -1,0 +1,52 @@
+body {
+    background-color: #dcbab5;
+}
+
+* {
+    font-family: "Raleway", sans-serif;
+    color: #554455;
+}
+ 
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+    font-size: 30px;
+    color: #554455;
+      }    
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 30px;
+  color: #554455;
+}
+
+.links {
+    text-decoration: none;
+    color: #554455;
+    font-size:17px;
+}
+.zocial {
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+.iconf {
+    margin: 0 10px 0 0;
+}
+
+@media screen and (max-width:500px){
+    .name {font-size:22px; margin-top:33px;}
+    .title {font-size:15px;}
+}
+
+.ns-logo {
+    margin-top: 12px;
+    height: 100px;
+    width:100px;
+}
+
+.niniPic {
+    margin-top: 12px;
+    height: 325px;
+    width:325px;
+}
